@@ -167,7 +167,7 @@ export default class PerInfo extends React.Component {
                     </View>
 
                     <View style={{ margin: 25, borderRadius: 10, backgroundColor: 'white', }}>
-                        <TouchableOpacity style={{ height: width / 8, justifyContent: 'center', alignItems: 'center' }}>
+                        <TouchableOpacity style={{ height: width / 8, justifyContent: 'center', alignItems: 'center' }} onPress={()=> this.props.navigation.navigate('Login')}>
                             <Text style={{ color: '#ff0000', fontSize: width / 28, fontWeight: '500' }}>Đăng xuất</Text>
                         </TouchableOpacity>
                     </View>
